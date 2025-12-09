@@ -29,8 +29,8 @@ TX_KB=$((DTX / 1024))
 
 # Output to Genmon
 INFO="<txt>"
-INFO+="↓<span fgcolor='red' weight='Bold'> ${RX_KB} kB/s</span> "
-INFO+="↑<span fgcolor='green' weight='Bold'> ${TX_KB} kB/s</span>"
+INFO+="<span fgcolor='white' weight='Bold' size='9000'>↓ ${RX_KB} kB/s</span>\n"
+INFO+="<span fgcolor='white' weight='Bold' size='9000'>↑ ${TX_KB} kB/s</span>"
 INFO+="</txt>"
 
 TOOL="<tool>"
